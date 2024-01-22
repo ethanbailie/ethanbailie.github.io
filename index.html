@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Personal site to indroduce who I am and what I do.">
+    <meta name="author" content="Ethan Bailie">
+    <title>Ethan Bailie | Data Engineer</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Steller main styles -->
+	<link rel="stylesheet" href="assets/css/steller.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+        <div class="container">
+            <a class="navbar-brand" href="#" onclick="event.preventDefault(); smoothScrollToElement('', 1000);"><img src="assets/imgs/logo.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Services & Skills</a>
+                    </li>                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testmonial">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>          
+    </nav>
+    <!-- End of page navibation -->
+
+    <script>
+        function visitPage(location){
+            window.location=location;
+        }
+    </script>
+    
+    
+    <!-- Page Header -->
+    <header class="header" id="home">
+        <div class="container">
+            <div class="infos">
+                <h6 class="subtitle">Hey, I'm</h6>
+                <h6 class="title">Ethan Bailie</h6>
+                <p>Data Engineer and ML Enthusiast</p>
+
+                <div class="buttons pt-3">
+                    <button class="btn btn-primary rounded" onclick="smoothScrollToElement('contact', 1000);">Contact Info</button>
+                    <button class="btn btn-dark rounded" onclick="window.open('resume.html');" target="_blank">View Resume</button>
+                </div>                   
+
+                <div class="socials mt-4">
+                    <a class="social-item" href="https://www.linkedin.com/in/ethan-bailie/" target="_blank"><i class="ti-linkedin"></i></a>
+                    <a class="social-item" href="https://github.com/ethanbailie" target="_blank"><i class="ti-github"></i></a>
+                </div>
+            </div>              
+            
+        </div>  
+
+        <!-- Header-widget -->
+        <div class="widget">
+            <div class="widget-item">
+                <h2>3</h2>
+                <p>Years of Experience</p>
+            </div>
+            <div class="widget-item">
+                <h2>5+</h2>
+                <p>Programming Languages & Frameworks</p>
+            </div>
+            <div class="widget-item">
+                <h2>Infinite</h2>
+                <p>Potential</p>
+            </div>
+        </div>
+    </header>
+    <!-- End of Page Header -->
+    
+    <!-- About section -->
+    <section id="about" class="section mt-3">
+        <div class="container mt-5">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3">
+                    <img src="assets/imgs/headshot.jpg" alt="" class="img-thumbnail mb-4">
+                </div>
+                <div class="pl-md-4 col-md-9">
+                    <h6 class="title">Ethan Bailie</h6>
+                    <p class="subtitle">Data Enthusiast</p>
+                    <p>Hey, I'm Ethan. Welcome to my site!</p>
+                    <p>I'm a data engineer with a background in both data science and data engineering. 
+                        I'm a basketball fan and a fashion enthusiast with a passion for learning new things.
+                        Lately I have been very interested in learning more about how LLMs apply to non-English language.</p>
+                    <button class="btn btn-primary rounded mt-3" onclick="window.open('assets/resume/Ethan_Bailie_Resume.pdf');" target="_blank">View Resume</button>                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service section -->
+    <section id="service" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Services</h6>
+            <h6 class="section-title mb-4">What I Do</h6>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-view-list-alt"></i>
+                            <h5>RAG Implementations</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-panel"></i>
+                            <h5>LLM Fine-Tuning</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-server"></i>
+                            <h5>Data Engineering</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-shine"></i>
+                            <h5>Prompt Engineering</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Sectoin -->
+
+    <!-- Skills section -->
+    <section class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Skills</h6>
+            <h6 class="section-title mb-4">Why Choose Me</h6>
+            <p class="mb-5 pb-4"></p>
+
+            <div class="row text-left">
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Python, SQL, R</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 89%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>89%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Vector Databases</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>83%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Distributed Computing</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Database Architecture</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">ETL/ELT Pipelining</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 92%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Prompt Engineering</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 97%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <!-- End of Skills sections -->
+
+    <!-- Portfolio section -->
+    <section id="portfolio" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Portfolio</h6>
+            <h6 class="section-title mb-4">Work Samples</h6>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/portfolio/tdExample.PNG" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>TD Client Presentation</h5>
+                                <a href="assets/portfolio/tdExample.PNG" target="_blank"><i class="ti-zoom-in"></i></a>
+                            </div>  
+                        </div>
+                    </div>                
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/portfolio/churnSample.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Churn Analysis Sample</h5>
+                                <a href="assets/portfolio/churnSample.png" target="_blank"><i class="ti-zoom-in"></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/portfolio/chat.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Document Chat</h5>
+                                <a href="assets/portfolio/chat.jpg" target="_blank"><i class="ti-zoom-in"></i></a>
+                                <a href="https://github.com/ethanbailie/ChurnAnalysis/blob/master/pipeline.py" target="_blank"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                  
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/portfolio/GEOG471.png" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Imagery Sharpening Project</h5>
+                                <a href="assets/portfolio/GEOG471.png" target="_blank"><i class="ti-zoom-in"></i></a>
+                            </div>  
+                        </div>
+                    </div>    
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End of portfolio section -->
+
+    <!-- Testmonial Section -->
+    <section id="testmonial" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Testmonials</h6>
+            <h6 class="section-title mb-4">What People Say About Me</h6>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card testmonial-card border">
+                            <div class="card-body">
+                                <img src="assets/imgs/laura.jpg" alt="">
+                                <p>"He's good. Please give him a job."</p>
+                                <h1 class="title">Laura Nguyen</h1>
+                                <h1 class="subtitle">Girlfriend</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card testmonial-card border">
+                            <div class="card-body">
+                                <img src="assets/imgs/chris.jpg" alt="">
+                                <p>"He's alright."</p>
+                                <h1 class="title">Christopher Park</h1>
+                                <h1 class="subtitle">Friend(?)</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card testmonial-card border">
+                            <div class="card-body">
+                                <img src="assets/imgs/jon.jpg" alt="">
+                                <p>"Certainly one of the people ever."</p>
+                                <h1 class="title">Jonathan Wang</h1>
+                                <h1 class="subtitle">Former Roommate</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of testmonial section -->
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">My Blog</h6>
+            <h6 class="section-title mb-4">Latest News</h6>
+            <p class="mb-5 pb-4">Just some things that were on my mind</p>
+
+            <div class="row text-left">
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/blog/minimal.jpg" alt="" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">How to Float</h5>
+                            <div class="post-details">
+                                <a >By Ethan Bailie</a>
+                            </div>
+                            <p>A short article I wrote about how you can make a more cohesive wardrobe and quantify value in clothing.</p>
+                            <a href="https://medium.com/@bailiee/how-to-float-83a55279044b" target="_blank">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="position-relative section">
+        <div class="container text-center">
+            <h6 class="subtitle">Contact</h6>
+            <h6 class="section-title mb-4">Get In Touch</h6>
+
+            <div class="contact text-left">
+                <div class="contact-infos">
+                    <br>
+                    <div class="item">
+                        <i class="ti-email"></i>
+                        <div class="">
+                            <h5>Email Address</h5>
+                            <a href="mailto:eabailie@uwaterloo.ca">eabailie@uwaterloo.ca</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="ti-mobile"></i>
+                        <div>
+                            <h5>Phone Number</h5>
+                            <p>(289) 221-0488</p>
+                        </div>                          
+                    </div>
+                    <div class="item">
+                        <i class="ti-location-pin"></i>
+                        <div class="">
+                            <h5>Location</h5>
+                            <p>Toronto, Ontario</p>
+                        </div>                          
+                    </div>
+                </div>                  
+            </div>
+            <div class="item">
+                <a class="social-item" href="https://www.linkedin.com/in/ethan-bailie/" target="_blank"><i class="ti-linkedin"></i></a>
+                <a class="social-item" href="https://github.com/ethanbailie" target="_blank"><i class="ti-github"></i></a>                         
+            </div>
+        </div>      
+    </section>
+    <!-- End of Contact Section -->
+	
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <!-- bootstrap 3 affix -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- steller js -->
+    <script src="assets/js/steller.js"></script>
+
+    <!-- smooth scroll from home button -->>
+    <script>
+        function smoothScrollToElement(elementId, scrollDuration) {
+            let targetPosition;
+            if (elementId) {
+                const targetElement = document.getElementById(elementId);
+                if (!targetElement) return;
+                targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+            } else {
+                targetPosition = 0;
+            }
+    
+            const startPosition = window.pageYOffset,
+                  distance = targetPosition - startPosition,
+                  scrollStep = Math.PI / (scrollDuration / 15);
+            
+            var currentStep = 0,
+                scrollInterval = setInterval(function() {
+                    if (currentStep < Math.PI) {
+                        currentStep += scrollStep;
+                        window.scrollTo(0, startPosition + distance * (0.5 - 0.5 * Math.cos(currentStep)));
+                    } else {
+                        window.scrollTo(0, startPosition + distance);
+                        clearInterval(scrollInterval); 
+                    }
+                }, 15);
+        }
+    </script>
+
+</body>
+
+</html>
